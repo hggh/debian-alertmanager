@@ -1,0 +1,1 @@
+OPTIONS="--config.file=/etc/prometheus/alertmanager.yml"

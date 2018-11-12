@@ -1,0 +1,11 @@
+[Unit]
+Description=Alertmanager
+
+[Service]
+User=prometheus
+Group=prometheus
+EnvironmentFile=/etc/default/alertmanager
+ExecStart=/usr/bin/alertmanager $OPTIONS
+
+[Install]
+WantedBy=multi-user.target
