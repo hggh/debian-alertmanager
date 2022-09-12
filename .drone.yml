@@ -11,7 +11,7 @@ clone:
 
 steps:
   - name: package
-    image: ubuntu:18.04
+    image: ubuntu:20.04
     commands:
       - apt-get update
       - apt-get install -y gnupg
